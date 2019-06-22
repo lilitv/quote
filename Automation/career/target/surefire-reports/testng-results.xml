@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ApplyJob" duration-ms="39365" started-at="2019-06-04T16:41:57Z" finished-at="2019-06-04T16:42:37Z">
+    <groups>
+    </groups>
+    <test name="career" duration-ms="39365" started-at="2019-06-04T16:41:57Z" finished-at="2019-06-04T16:42:37Z">
+      <class name="tests.CareerTest">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:tests.CareerTest@5f375618]" name="setUP" is-config="true" duration-ms="13689" started-at="2019-06-04T20:41:57Z" finished-at="2019-06-04T20:42:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="checkJobTopSection()[pri:1, instance:tests.CareerTest@5f375618]" name="checkJobTopSection" duration-ms="21773" started-at="2019-06-04T20:42:11Z" finished-at="2019-06-04T20:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkJobTopSection -->
+        <test-method status="PASS" signature="checkJobDesciption()[pri:2, instance:tests.CareerTest@5f375618]" name="checkJobDesciption" duration-ms="35" started-at="2019-06-04T20:42:33Z" finished-at="2019-06-04T20:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkJobDesciption -->
+        <test-method status="PASS" signature="checkJobResponisilities()[pri:3, instance:tests.CareerTest@5f375618]" name="checkJobResponisilities" duration-ms="59" started-at="2019-06-04T20:42:33Z" finished-at="2019-06-04T20:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkJobResponisilities -->
+        <test-method status="PASS" signature="checkJobProfile()[pri:4, instance:tests.CareerTest@5f375618]" name="checkJobProfile" duration-ms="69" started-at="2019-06-04T20:42:33Z" finished-at="2019-06-04T20:42:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkJobProfile -->
+        <test-method status="PASS" signature="checkApplyNowButton()[pri:5, instance:tests.CareerTest@5f375618]" name="checkApplyNowButton" duration-ms="2837" started-at="2019-06-04T20:42:33Z" finished-at="2019-06-04T20:42:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkApplyNowButton -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:tests.CareerTest@5f375618]" name="quit" is-config="true" duration-ms="889" started-at="2019-06-04T20:42:36Z" finished-at="2019-06-04T20:42:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- tests.CareerTest -->
+    </test> <!-- career -->
+  </suite> <!-- ApplyJob -->
+</testng-results>

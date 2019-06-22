@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ApplyJob]">
+  <test name="career">
+    <classes>
+      <class name="tests.CareerTest"/>
+    </classes>
+  </test> <!-- career -->
+  <test name="career(failed)">
+    <classes>
+      <class name="tests.CareerTest">
+        <methods>
+          <include name="checkJobProfile"/>
+          <include name="checkJobResponisilities"/>
+          <include name="setUP"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- tests.CareerTest -->
+    </classes>
+  </test> <!-- career(failed) -->
+</suite> <!-- Failed suite [ApplyJob] -->
